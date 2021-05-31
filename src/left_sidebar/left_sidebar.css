@@ -10,6 +10,7 @@
 .company_details{
     width: inherit;
     height: 8%;
+    max-height: 200px; 
     /* background-color: lawngreen; */
     display: flex;
     align-items: center;
@@ -27,17 +28,20 @@
 .left_sidebar_div1{
     width: 90%;
     height: 40%;
+    max-height: 400px;
     /* background-color: tomato; */
 }
 
 .left_sidebar_div2{
     width: 90%;
     height: 30%;
+    max-height: 300px;
     /* background-color: hotpink; */
 }
 .left_sidebar_div3{
     width: 90%;
     height: 15%;
+    max-height: 200px;
     /* background-color: lime; */
 }
 
