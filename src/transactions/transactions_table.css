@@ -1,0 +1,81 @@
+.transactions_table_content{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    min-width: 500px;
+    /* background-color: lightgreen; */
+}
+
+.trans_table_heading{
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.trans_table_heading_item{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    /* background-color: lightgreen; */
+}
+.heading_text{
+    color: grey;
+    font-size: 0.8rem;
+}
+.sort_column{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    
+    margin-left: 20px;
+}
+.col2{
+    width: 30%;
+    /* background-color: hotpink; */
+}
+.col3{
+    width: 10%;
+    /* background-color: indianred; */
+}
+.col4{
+    width: 20%;
+    /* background-color: hotpink; */
+}
+.col5{
+    width: 20%;  
+    /* background-color: indianred; */
+}
+.col6{
+    width: 20%;
+    /* background-color: hotpink; */
+}
+
+.row_status_text{
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(75, 196, 149);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.row_text{
+    color: black;
+    font-weight: 500;
+    font-size: 0.8rem;    
+}
+
+.trans_table_heading:nth-child(even){
+    background-color: #f2f2f2;
+}
+.trans_table_heading:last-child{
+    border-radius: 5px;
+}

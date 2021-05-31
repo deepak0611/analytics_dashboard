@@ -1,0 +1,30 @@
+.users_div3{
+    width: 90%;
+    height: 70%;
+    /* min-height: 200px; */
+    /* margin-top: 30px; */
+    /* background-color: lightpink;   */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vertical_bar{
+    height: 50%;
+    width: 8%;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(238, 241, 247);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.vertical_progress{
+    width: 100%;
+    background-color: rgb(89, 132, 212);
+}
+
+@media screen and (max-width: 1400px) {
+    .users_div3{
+        /* width:70%; */
+        height: 150px;
+    }
+}
