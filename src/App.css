@@ -19,6 +19,7 @@
 .top_navbar{
     width: inherit;
     height: 8vh;
+    max-height: 200px;
     background-color: lawngreen;
 }
 .main_body{
