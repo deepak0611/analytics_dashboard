@@ -38,17 +38,17 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main main_active">
                     <div className="left_content">
-                        <img src={dashboard} width="15px" height="15px" />
+                        <img src={dashboard} alt=".." width="15px" height="15px" />
                         <span>Dashboard</span>
                     </div>
                     <div className="right_content">
-                        <img src={down_arrow_white} width="12px" height="12px" />
+                        <img src={down_arrow_white} alt=".." width="12px" height="12px" />
                     </div>
                 </div>
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={discover} width="15px" height="15px" />
+                        <img src={discover} alt=".." width="15px" height="15px" />
                         <span>Discover</span>
                     </div>
                     <div className="right_discover">
@@ -59,41 +59,41 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={users} width="15px" height="15px" />
+                        <img src={users} alt=".." width="15px" height="15px" />
                         <span>Users</span>
                     </div>
                     <div className="right_content">
-                        <img src={down_arrow} width="12px" height="12px" />
+                        <img src={down_arrow} alt=".." width="12px" height="12px" />
                     </div>
                 </div>
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={documents} width="15px" height="15px" />
+                        <img src={documents} alt=".." width="15px" height="15px" />
                         <span>Documents</span>
                     </div>
                     <div className="right_content">
-                        <img src={down_arrow} width="12px" height="12px" />
+                        <img src={down_arrow} alt=".." width="12px" height="12px" />
                     </div>
                 </div>
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={applications} width="15px" height="15px" />
+                        <img src={applications} alt=".." width="15px" height="15px" />
                         <span>Applications</span>
                     </div>
                     <div className="right_content">
-                        <img src={down_arrow} width="12px" height="12px" />
+                        <img src={down_arrow} alt=".." width="12px" height="12px" />
                     </div>
                 </div>
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={pages} width="15px" height="15px" />
+                        <img src={pages} alt=".." width="15px" height="15px" />
                         <span>Pages</span>
                     </div>
                     <div className="right_content">
-                        <img src={down_arrow} width="12px" height="12px" />
+                        <img src={down_arrow} alt=".." width="12px" height="12px" />
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main ">
                     <div className="left_content">
-                        <img src={support} width="15px" height="15px" />
+                        <img src={support} alt=".." width="15px" height="15px" />
                         <span>Support Center</span>
                     </div>
                     {/* <div className="right_content">
@@ -121,7 +121,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={inbox} width="15px" height="15px" />
+                        <img src={inbox} alt=".." width="15px" height="15px" />
                         <span>Inbox</span>
                     </div>
                     {/* <div className="right_content">
@@ -131,7 +131,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={documents} width="15px" height="15px" />
+                        <img src={documents} alt=".." width="15px" height="15px" />
                         <span>File Manager</span>
                     </div>
                     {/* <div className="right_content">
@@ -141,7 +141,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={data_list} width="15px" height="15px" />
+                        <img src={data_list} alt=".." width="15px" height="15px" />
                         <span>Data List</span>
                     </div>
                     {/* <div className="right_content">
@@ -158,7 +158,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main ">
                     <div className="left_content">
-                        <img src={setting} width="15px" height="15px" />
+                        <img src={setting} alt=".." width="15px" height="15px" />
                         <span>Settings</span>
                     </div>
                     {/* <div className="right_content">
@@ -168,7 +168,7 @@ class Left_sidebar extends React.Component{
 
                 <div className="left_sidebar_main">
                     <div className="left_content">
-                        <img src={logout} width="15px" height="15px" />
+                        <img src={logout} alt=".." width="15px" height="15px" />
                         <span>Log Out</span>
                     </div>
                     {/* <div className="right_content">

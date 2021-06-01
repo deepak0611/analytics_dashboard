@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, Tooltip, ResponsiveContainer } from 'recharts';
 
 const data = [];
 
@@ -10,7 +10,7 @@ for(let i=30;i>0;i--){
 }
 
 
-export default class Example extends PureComponent {
+export default class Area_chart extends PureComponent {
   static demoUrl = 'https://codesandbox.io/s/simple-area-chart-4ujxw';
 
   render() {
@@ -26,10 +26,8 @@ export default class Example extends PureComponent {
             bottom: 0,
           }}
         >
-          {/* <CartesianGrid strokeDasharray="3 3" /> */}
-          {/* <XAxis dataKey="name" /> */}
-          {/* <YAxis /> */}
-          {/* <Tooltip /> */}
+         
+          <Tooltip />
           <Area dataKey="value" stroke="#000099" strokeWidth={1.5} fill="rgb(238, 241, 247)" />
         </AreaChart>
       </ResponsiveContainer>

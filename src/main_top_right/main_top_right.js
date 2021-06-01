@@ -1,7 +1,7 @@
 import React from "react";
 // import '../App.css';
 import down_arrow from "../images/down_arrow.png"
-import Example from "./area_chart";
+import Area_chart from "./area_chart";
 import './main_top_right.css';
 
 class Main_top_right extends React.Component{
@@ -58,7 +58,7 @@ class Main_top_right extends React.Component{
             </div>
 
             <div className="top_right_div3">
-                <Example/>
+                <Area_chart/>
  
             </div>
 

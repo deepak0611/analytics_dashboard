@@ -1,6 +1,5 @@
 import React from "react";
 // import '../App.css';
-import down_arrow from "../images/down_arrow.png";
 import export_icon from "../images/export.png";
 import './transactions.css';
 import Transactions_table from "./transactions_table";

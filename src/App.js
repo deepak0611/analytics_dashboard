@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Total_income from './total_income/total_income';
 import Top_navbar from './top_navbar/top_navbar';

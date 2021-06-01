@@ -1,25 +1,27 @@
 .full_body{
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
 }
 .left_sidebar{
     width: 20vw;
     height: 100vh;
-    background-color: coral;
+    /* background-color: coral; */
 }
 .right_sidebar{
     width: 80vw;
     height: 100vh;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     flex-direction: column;
 }
 .top_navbar{
     width: inherit;
     height: 8vh;
-    background-color: lawngreen;
+    max-height: 60px;
+    min-height: 60px;
+    /* background-color: lawngreen; */
 }
 .main_body{
     width: inherit;
@@ -39,7 +41,7 @@
     width: 90%;
     height: 400px;  
     margin: 50px auto;
-    background-color: darkorange;
+    /* background-color: darkorange; */
     border-radius: 5px;
 }
 
